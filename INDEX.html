@@ -1,0 +1,118 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>JS Quiz</title>
+</head>
+
+<body>
+
+    <!-- top section -->
+    <div class="intro py-3 bg-light text-center">
+        <div class="container">
+            <h2 class="text-primary display-4 my-4">JS Quiz</h2>
+        </div>
+    </div>
+
+    <!-- result section-->
+    <div class="result py-4 d-none bg-warning text-center">
+        <div class="container-lead">
+            <p>You scored <span class="text-primary display-4 p-3">0%</span></p>
+        </div>
+    </div>
+
+    <!-- quiz section-->
+    <div class="quiz py-4 bg-secondary">
+        <div class="container">
+            <h2 class="my-5 text-white">On with the questions...</h2>
+
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        1. Which type of JavaScript language is ___
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name='q1' value="A">
+                        <label class="form-check-label">Object-Based</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name='q1' value="B">
+                        <label class="form-check-label">Object-Oriented</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        2. Which one of the following also known as Conditional Expression?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name='q2' value="A">
+                        <label class="form-check-label">Alternative to if-else</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name='q2' value="B">
+                        <label class="form-check-label">immediate if</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        3. In JavaScript, what is a block of statement?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name='q3' value="A">
+                        <label class="form-check-label">both conditional block and a single statement</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name='q3' value="B">
+                        <label class="form-check-label">block that combines a number of statements into a single
+                            compound statement
+                        </label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        4. When interpreter encounters an empty statements, what it will do?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name='q4' value="A">
+                        <label class="form-check-label">Throws an error</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name='q4' value="B">
+                        <label class="form-check-label">Ignores the statements</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        5. Which one of the following is the correct way for calling the JavaScript code?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name='q5' value="A">
+                        <label class="form-check-label">Function/Method</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name='q5' value="B">
+                        <label class="form-check-label">Preprocessor</label>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" class='btn btn-light'>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
